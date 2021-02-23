@@ -1,13 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "net.hazelra.traincarts.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
-  ],
+  "mixins": [],
+  "client": ["ExampleMixin"],
   "injectors": {
     "defaultRequire": 1
   }
